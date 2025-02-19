@@ -2,24 +2,22 @@
 ## End-to-End Data Engineering Pipeline: Spotify + AWS
 
 📖 Overview
-This project builds a scalable data engineering pipeline using Spotify API & AWS Cloud. It extracts music streaming data, processes it, stores structured data in a warehouse, and visualizes insights via dashboards.
+This project builds a scalable data engineering pipeline using Spotify API & AWS Cloud. It extracts music streaming data, processes it, stores structured data in a warehouse, and visualizes insights via dashboards.<br>
 
 🚀 Tech Stack
-AWS Services: S3, Lambda, Glue, Redshift, Athena, QuickSight
-Programming: Python (ETL scripts)
-Database: Amazon Redshift / PostgreSQL
-Visualization: AWS QuickSight / Tableau
-API Used: Spotify API
-🛠️ Features
-✔️ Automated Data Ingestion from Spotify API
-✔️ Cloud Storage & Processing with AWS S3 & Glue
-✔️ Data Warehousing using Redshift / RDS
-✔️ Dashboard & Insights for user analytics
+AWS Services: S3, Lambda, Glue, Redshift, Athena, QuickSight<br>
+Programming: Python (ETL scripts)<br>
+Database: Amazon Redshift / PostgreSQL<br>
+Visualization: AWS QuickSight / Tableau<br>
+API Used: Spotify API<br>
+🛠️ Features<br>
+✔️ Automated Data Ingestion from Spotify API<br>
+✔️ Cloud Storage & Processing with AWS S3 & Glue<br>
+✔️ Data Warehousing using Redshift / RDS<br>
+✔️ Dashboard & Insights for user analytics<br>
 
-📂 Project Structure
-bash
-Copy
-Edit
+📂 Project Structure<br>
+
 spotify-data-pipeline/
 ├── data_ingestion/          # Extracts data from Spotify API
 ├── data_processing/         # Cleans & transforms raw data
@@ -29,17 +27,18 @@ spotify-data-pipeline/
 ├── requirements.txt         # Python dependencies
 ├── .gitignore               # Ignore sensitive files
 └── LICENSE                  # Open-source license
-📈 Data Flow
-1️⃣ Extract → Fetch data from Spotify API
-2️⃣ Store → Save raw data in AWS S3
-3️⃣ Transform → Clean & process using AWS Glue
-4️⃣ Load → Store in Redshift / RDS
-5️⃣ Visualize → Create dashboards in AWS QuickSight
 
-📊 Results & Insights
-Top Artists & Songs based on user streaming behavior
-Listening Patterns across different timeframes
-Genre Popularity Trends
+📈 Data Flow<br>
+1️⃣ Extract → Fetch data from Spotify API<br>
+2️⃣ Store → Save raw data in AWS S3<br>
+3️⃣ Transform → Clean & process using AWS Glue<Br>
+4️⃣ Load → Store in Redshift / RDS<Br>
+5️⃣ Visualize → Create dashboards in AWS QuickSight<Br>
 
-📜 License
-This project is open-source under the MIT License.
+📊 Results & Insights<br>
+Top Artists & Songs based on user streaming behavior<br>
+Listening Patterns across different timeframes<br>
+Genre Popularity Trends<Br>
+
+📜 License<br>
+This project is open-source under the MIT License.<br>
