@@ -1,4 +1,4 @@
-# Spotify-dataPipeline-aws
+# Spotify-DataPipeline-aws
 ## End-to-End Data Engineering Pipeline: Spotify + AWS
 
 ### 📖 Overview
